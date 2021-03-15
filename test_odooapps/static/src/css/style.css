@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+[data-field="state_picking"] {
+  font-weight: bold;
+  width: 2px;
+  height: 3px;
+}
+

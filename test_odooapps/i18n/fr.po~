@@ -1,0 +1,611 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* elancite_stock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20190501-002430\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-24 14:18+0000\n"
+"PO-Revision-Date: 2020-06-24 14:18+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Internal Shipment :"
+msgstr "Mouvement interne :"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Destination"
+msgstr "Destination"
+
+#. module: elancite_stock
+#: field:stock.picking.out,availability_delivery:0
+msgid "Availability delivery"
+msgstr "Disponibilité livraison"
+
+#. module: elancite_stock
+#: view:stock.partial.picking:0
+msgid "Si l'emplacement de destination est vide c'est l'emplacement par défaut des lignes de livraisons qui sera utilisé."
+msgstr "Si l'emplacement de destination est vide c'est l'emplacement par défaut des lignes de livraisons qui sera utilisé."
+
+#. module: elancite_stock
+#: selection:stock.picking.out,availability_delivery:0
+msgid "Unavailable totally"
+msgstr "Indisponible totalement"
+
+#. module: elancite_stock
+#: view:product.product:0
+msgid "Receptions"
+msgstr "Receptions"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line,type_state:0
+msgid "Type state"
+msgstr "Type status"
+
+#. module: elancite_stock
+#: view:stock.picking:0
+msgid "Reset to waiting"
+msgstr "Mettre en attente de disponibilité"
+
+#. module: elancite_stock
+#: field:stock.control.quantity,company_id:0
+msgid "Company"
+msgstr "Société"
+
+#. module: elancite_stock
+#: view:product.product:0
+msgid "Adds the product to the checklist to require a serial number to be entered during a delivery or reception."
+msgstr "Ajoute le produit dans la liste de contrôle pour obliger la saisie d'un numéro de série lors d'une livraison ou d'une réception."
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_production_lot
+#: report:stock.picking.internal.list:0
+msgid "Serial Number"
+msgstr "Numéro de Série"
+
+#. module: elancite_stock
+#: view:stock.change.location:0
+msgid ", le traitement va changer tous les emplacements sources des lignes de produit non traitées du Bon de Livraison !"
+msgstr ", le traitement va changer tous les emplacements sources des lignes de produit non traitées du Bon de Livraison !"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_partial_picking
+msgid "Partial Picking Processing Wizard"
+msgstr "Partial Picking Processing Wizard"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,user_id:0
+msgid "Create by"
+msgstr "Créé par"
+
+#. module: elancite_stock
+#: selection:stock.control.quantity.line.location,state:0
+msgid "Waiting Another Move"
+msgstr "En attente"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,location_id:0
+msgid "Source location"
+msgstr "Emplacement source"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,date_move:0
+#: view:stock.move:0
+msgid "Date move"
+msgstr "Date mouvement"
+
+#. module: elancite_stock
+#: field:res.company,message_for_delivery:0
+msgid "Message for delivery"
+msgstr "Message pour les livraisons"
+
+#. module: elancite_stock
+#: field:res.company,from_email:0
+msgid "From email"
+msgstr "Expéditeur"
+
+#. module: elancite_stock
+#: view:stock.control.quantity:0
+msgid "Products"
+msgstr "Produits"
+
+#. module: elancite_stock
+#: selection:stock.control.quantity.line.location,state:0
+msgid "Cancelled"
+msgstr "Annuler"
+
+#. module: elancite_stock
+#: view:stock.change.location:0
+msgid "Lancer le traitement"
+msgstr "Lancer le traitement"
+
+#. module: elancite_stock
+#: view:stock.change.location:0
+msgid "Etes-vous sûr de vouloir lancer le traitement ?"
+msgstr "Etes-vous sûr de vouloir lancer le traitement ?"
+
+#. module: elancite_stock
+#: selection:stock.picking.out,availability_delivery:0
+msgid "Available totally"
+msgstr "Disponible totalement"
+
+#. module: elancite_stock
+#: view:stock.partial.picking:0
+msgid "Date transfert"
+msgstr "Date transfert"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Reference"
+msgstr "Référence"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_move
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,move_id:0
+msgid "Move"
+msgstr "Mouvement"
+
+#. module: elancite_stock
+#: field:product.template,product_location_name:0
+msgid "Location name"
+msgstr "Emplacement produit"
+
+#. module: elancite_stock
+#: view:stock.picking.out:0
+msgid "Are you sure to want to cross the delivery slip to be sent?"
+msgstr "Etes-vous sûr de vouloir passer le bon de livraison à expédier ?"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_picking_out
+msgid "Delivery Orders"
+msgstr "Bons de livraisons"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Print the"
+msgstr "Imprimé le"
+
+#. module: elancite_stock
+#: help:stock.change.product.qty,old_quantity:0
+msgid "Quantity at present available on this location."
+msgstr "Quantité actuellement disponible sur cet emplacement."
+
+#. module: elancite_stock
+#: field:res.company,image_signature:0
+msgid "Image signature"
+msgstr "Image signature"
+
+#. module: elancite_stock
+#: view:stock.picking.out:0
+msgid "Check Availability"
+msgstr "Vérifier la disponibilité"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,control_qty_location_id:0
+msgid "Control Quantity Line"
+msgstr "Control Quantity Line"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Source"
+msgstr "Source"
+
+#. module: elancite_stock
+#: selection:stock.control.quantity.line,type_state:0
+msgid "Waiting"
+msgstr "En attente"
+
+#. module: elancite_stock
+#: view:stock.control.quantity:0
+#: field:stock.control.quantity,location_id:0
+#: field:stock.control.quantity.line,control_qty_location_id:0
+#: field:stock.control.quantity.line,control_qty_location_id2:0
+msgid "Location"
+msgstr "Emplacement"
+
+#. module: elancite_stock
+#: field:stock.change.product.qty,old_quantity:0
+msgid "Old quantity"
+msgstr "Anciennes quantités"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_picking
+msgid "Picking List"
+msgstr "Opération de manutention"
+
+#. module: elancite_stock
+#: selection:stock.control.quantity.line.location,state:0
+msgid "New"
+msgstr "Nouveau"
+
+#. module: elancite_stock
+#: view:res.company:0
+msgid "You can send an automatic email to the delivery of products."
+msgstr "Vous pouvez envoyer un email automatique à la livraison de produits."
+
+#. module: elancite_stock
+#: selection:stock.control.quantity.line.location,state:0
+msgid "Waiting Availability"
+msgstr "Attente disponibilité"
+
+#. module: elancite_stock
+#: selection:stock.control.quantity.line.location,state:0
+msgid "Available"
+msgstr "Disponible"
+
+#. module: elancite_stock
+#: view:product.product:0
+msgid "►"
+msgstr "►"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_control_quantity_line_location
+msgid "Stock Control Quantity Line Location"
+msgstr "Stock Control Quantity Line Location"
+
+#. module: elancite_stock
+#: field:stock.partial.picking,new_location_dest_id:0
+msgid "Emplacement destination"
+msgstr "Emplacement destination"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,product_uom:0
+msgid "Uom"
+msgstr "Udm"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line,qty_available:0
+msgid "Qty available"
+msgstr "Prévue"
+
+#. module: elancite_stock
+#: view:res.company:0
+msgid "Message for the delivery"
+msgstr "Message pour les livraisons"
+
+#. module: elancite_stock
+#: view:stock.change.product.qty:0
+msgid "onchange_location_id(location_id,product_id)"
+msgstr "onchange_location_id(location_id,product_id)"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_change_location
+msgid "Changer les emplacements sources"
+msgstr "Changer les emplacements sources"
+
+#. module: elancite_stock
+#: view:stock.control.quantity:0
+msgid "Stock control quantity"
+msgstr "Stock control quantity"
+
+#. module: elancite_stock
+#: model:ir.actions.act_window,help:elancite_stock.action_stock_control_quantity_form
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a new stock control quantity. \n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a new stock control quantity. \n"
+"              </p>\n"
+"            "
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Weight"
+msgstr "Poids"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line,control_qty_id:0
+msgid "Control Quantity"
+msgstr "Control Quantity"
+
+#. module: elancite_stock
+#: field:stock.move,create_uid:0
+msgid "Create user"
+msgstr "Create user"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Destination address :"
+msgstr "Adresse de destination :"
+
+#. module: elancite_stock
+#: view:stock.picking.out:0
+msgid "blue:state == 'draft';grey:state == 'cancel';green:state == 'to_send';red:state not in ('cancel', 'done') and min_date < current_date"
+msgstr "blue:state == 'draft';grey:state == 'cancel';green:state == 'to_send';red:state not in ('cancel', 'done') and min_date < current_date"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line,real_stock:0
+msgid "Real Stock"
+msgstr "Stock actuel"
+
+#. module: elancite_stock
+#: field:stock.production.lot,note:0
+msgid "Note"
+msgstr "Note"
+
+#. module: elancite_stock
+#: view:stock.move:0
+#: view:stock.picking.out:0
+msgid "elancite_droit.group_manager_picking_delivery"
+msgstr "elancite_droit.group_manager_picking_delivery"
+
+#. module: elancite_stock
+#: view:stock.picking.out:0
+msgid "to_send"
+msgstr "to_send"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,state:0
+msgid "Status"
+msgstr "Status"
+
+#. module: elancite_stock
+#: view:stock.change.location:0
+msgid "or"
+msgstr "or"
+
+#. module: elancite_stock
+#: model:ir.actions.act_window,name:elancite_stock.action_stock_control_quantity_form
+#: model:ir.model,name:elancite_stock.model_stock_control_quantity
+#: model:ir.ui.menu,name:elancite_stock.menu_action_stock_control_quantity_form
+msgid "Stock Control Quantity"
+msgstr "Conrôle quantités stock"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line,stock_in:0
+msgid "Stock In"
+msgstr "A venir"
+
+#. module: elancite_stock
+#: field:stock.move,write_date:0
+msgid "Write Date"
+msgstr "Write Date"
+
+#. module: elancite_stock
+#: view:stock.partial.picking:0
+msgid "{'readonly': [('quantity','=',0),('picking_type','=','out')]}"
+msgstr "{'readonly': [('quantity','=',0),('picking_type','=','out')]}"
+
+#. module: elancite_stock
+#: view:product.product:0
+msgid "Add to Checklist"
+msgstr "Ajouter à la liste de contrôle"
+
+#. module: elancite_stock
+#: model:ir.actions.report.xml,name:elancite_stock.report_picking_list
+msgid "Internal Picking"
+msgstr "Mouvement interne"
+
+#. module: elancite_stock
+#: view:stock.move:0
+#: field:stock.partial.picking.line,date_expected:0
+msgid "Date expected"
+msgstr "Date planifiée"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_partial_picking_line
+msgid "stock.partial.picking.line"
+msgstr "stock.partial.picking.line"
+
+#. module: elancite_stock
+#: field:stock.partial.picking.line,picking_type:0
+msgid "Picking type"
+msgstr "Picking type"
+
+#. module: elancite_stock
+#: selection:stock.picking.out,availability_delivery:0
+msgid "Available partially"
+msgstr "Disponible partiellement"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,location_dest_id:0
+msgid "Location destination"
+msgstr "Location destination"
+
+#. module: elancite_stock
+#: field:res.company,name_col_1:0
+msgid "Name column 1"
+msgstr "Nom colonne 1"
+
+#. module: elancite_stock
+#: field:res.company,name_col_2:0
+msgid "Name column 2"
+msgstr "Nom colonne 2"
+
+#. module: elancite_stock
+#: field:res.company,name_col_3:0
+msgid "Name column 3"
+msgstr "Nom colonne 3"
+
+#. module: elancite_stock
+#: view:stock.picking:0
+msgid "Are you sure you want to draft the movement?"
+msgstr "Are you sure you want to draft the movement?"
+
+#. module: elancite_stock
+#: view:product.product:0
+msgid "Deliveries"
+msgstr "Livraisons"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line.location,product_qty:0
+#: report:stock.picking.internal.list:0
+msgid "Qty"
+msgstr "Qté"
+
+#. module: elancite_stock
+#: selection:stock.control.quantity.line,type_state:0
+#: selection:stock.control.quantity.line.location,state:0
+msgid "Done"
+msgstr "Terminé"
+
+#. module: elancite_stock
+#: view:stock.change.location:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_pricelist_partnerinfo
+msgid "pricelist.partnerinfo"
+msgstr "Informations sur le partenaire"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_change_product_qty
+msgid "Change Product Quantity"
+msgstr "Changer la quantité d'articles"
+
+#. module: elancite_stock
+#: view:stock.control.quantity:0
+msgid "Results negative quantities"
+msgstr "Résultats quantités négatives"
+
+#. module: elancite_stock
+#: view:stock.picking.out:0
+msgid "Request of shipping"
+msgstr "Demander l'expédition"
+
+#. module: elancite_stock
+#: field:stock.change.location,location_id:0
+msgid "Nouvel emplacement source"
+msgstr "Nouvel emplacement source"
+
+#. module: elancite_stock
+#: view:stock.control.quantity:0
+msgid "Search Product"
+msgstr "Rechercher les produits"
+
+#. module: elancite_stock
+#: field:res.company,function_for_email:0
+msgid "Function"
+msgstr "Fonction"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_product_product
+#: field:stock.control.quantity.line,product_id:0
+msgid "Product"
+msgstr "Article"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Description"
+msgstr "Description"
+
+#. module: elancite_stock
+#: view:stock.change.location:0
+msgid "Attention"
+msgstr "Attention"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Volume"
+msgstr "Volume"
+
+#. module: elancite_stock
+#: model:ir.actions.act_window,name:elancite_stock.action_stock_change_act
+msgid "MODIFIER LES EMPLACEMENTS SOURCES"
+msgstr "MODIFIER LES EMPLACEMENTS SOURCES"
+
+#. module: elancite_stock
+#: help:res.company,send_automatic_email:0
+msgid "If this compartment is marked an email will be automatically sent to the customer in the delivery of products"
+msgstr "si cette case est cochée un email sera envoyé automatiquement au client à la livraison des produits"
+
+#. module: elancite_stock
+#: field:stock.control.quantity,name:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: elancite_stock
+#: view:stock.picking.out:0
+msgid "Modifier les emplacements"
+msgstr "Modifier les emplacements"
+
+#. module: elancite_stock
+#: view:stock.control.quantity:0
+#: field:stock.control.quantity,control_qty_line_id:0
+msgid "Lines"
+msgstr "Lines"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_product_template
+msgid "Product Template"
+msgstr "Modèle d'article"
+
+#. module: elancite_stock
+#: field:stock.control.quantity.line,stock_out:0
+msgid "Stock Out"
+msgstr "A sortir"
+
+#. module: elancite_stock
+#: model:ir.model,name:elancite_stock.model_stock_control_quantity_line
+msgid "Stock Control Quantity Line"
+msgstr "Stock Control Quantity Line"
+
+#. module: elancite_stock
+#: view:stock.change.location:0
+msgid "Emplacements sources"
+msgstr "Emplacements sources"
+
+#. module: elancite_stock
+#: field:res.company,subject_mail:0
+msgid "Subject mail"
+msgstr "Objet du mail"
+
+#. module: elancite_stock
+#: field:res.company,send_automatic_email:0
+msgid "Send the automatic emails"
+msgstr "Envoyer automatiquement un email"
+
+#. module: elancite_stock
+#: field:stock.picking.out,state_picking:0
+msgid "State picking"
+msgstr "State picking"
+
+#. module: elancite_stock
+#: report:stock.picking.internal.list:0
+msgid "Move date"
+msgstr "Date de départ"
+
+#. module: elancite_stock
+#: field:stock.control.quantity,date:0
+msgid "Date"
+msgstr "Date"
+
+#. module: elancite_stock
+#: field:stock.move,write_uid:0
+msgid "Write user"
+msgstr "Write user"
+
+#. module: elancite_stock
+#: help:res.company,image_signature:0
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+
+#. module: elancite_stock
+#: view:stock.picking.out:0
+msgid "To send"
+msgstr "A expédier"
+
+#. module: elancite_stock
+#: view:stock.control.quantity:0
+msgid "Search By Location"
+msgstr "Search By Location"
+
